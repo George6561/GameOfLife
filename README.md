@@ -30,20 +30,6 @@ This follows the standard Conway’s Game of Life rules:
 Only pixels that are exactly **(255, 255, 255)** in the seed image are considered alive.  
 Everything else is treated as dead.
 
----
-
-## Project Structure
-
-## Project Structure
-
-```text
-GameOfLife/
-├── main.py               # Entry point, runs the simulation
-├── GameOfLife.py         # Core life logic and image loading
-├── PixelGridWindow.py    # Tkinter-based grid renderer
-├── seed.png              # Image used as the initial state
-└── README.md
-```text
 
 ---
 
