@@ -34,3 +34,47 @@ Everything else is treated as dead.
 
 ## Project Structure
 
+GameOfLife/
+│
+├── main.py # Entry point, runs the simulation
+├── GameOfLife.py # Core life logic and image loading
+├── PixelGridWindow.py # Tkinter-based grid renderer
+├── seed.png # Image used as the initial state
+└── README.md
+
+
+---
+
+## How It Works
+
+### Image Loading
+
+The simulation reads `seed.png` and scans every pixel:
+
+- White pixels → alive
+- Non-white pixels → dead
+
+The image can optionally be sampled at lower resolution and cropped to its content to reduce empty space.
+
+### Simulation Loop
+
+The main loop:
+
+1. Advances the Game of Life by one step  
+2. Clears the screen  
+3. Renders all alive cells  
+4. Repeats after a fixed time delay  
+
+The update rate is controlled via `STEP_MS` in `main.py`.
+
+---
+
+## Running the Project
+
+### Requirements
+
+- Python 3.10+
+- Pillow (PIL)
+
+
+
