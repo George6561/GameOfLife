@@ -43,6 +43,7 @@ GameOfLife/
 ├── PixelGridWindow.py    # Tkinter-based grid renderer
 ├── seed.png              # Image used as the initial state
 └── README.md
+```text
 
 ---
 
