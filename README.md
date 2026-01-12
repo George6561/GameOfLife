@@ -34,14 +34,15 @@ Everything else is treated as dead.
 
 ## Project Structure
 
-GameOfLife/
-│
-├── main.py # Entry point, runs the simulation
-├── GameOfLife.py # Core life logic and image loading
-├── PixelGridWindow.py # Tkinter-based grid renderer
-├── seed.png # Image used as the initial state
-└── README.md
+## Project Structure
 
+```text
+GameOfLife/
+├── main.py               # Entry point, runs the simulation
+├── GameOfLife.py         # Core life logic and image loading
+├── PixelGridWindow.py    # Tkinter-based grid renderer
+├── seed.png              # Image used as the initial state
+└── README.md
 
 ---
 
